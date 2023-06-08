@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="program\Game.cpp" />
+    <ClCompile Include="program\Main.cpp" />
+    <ClCompile Include="program\Life.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Security.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Start_camera.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Timer.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\UFO.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\UI.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\WallClass.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Random.cpp">
+      <Filter>Ssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Vector2.cpp">
+      <Filter>Ssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Vector3.cpp">
+      <Filter>Ssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Score.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Minimap.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\PlayCount.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Stage.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Tutorial.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Base.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Hit.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="program\Game.h" />
+    <ClInclude Include="program\Main.h" />
+    <ClInclude Include="program\Life.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Security.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Start_camera.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Timer.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\UFO.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\UI.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\WallClass.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Random.h">
+      <Filter>Ssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Vector2.h">
+      <Filter>Ssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Vector3.h">
+      <Filter>Ssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Score.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Minimap.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Stage.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Tutorial.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Base.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Hit.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f1deec6f-4c6a-4149-8516-705bded924fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ssystem">
+      <UniqueIdentifier>{26e47f43-1468-48d1-a005-a7d4f7e58927}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
