@@ -1634,6 +1634,27 @@ void Game::Update()
 					}
 				}
 			}
+			//	UFOのランダム座標は2分の1でプレイヤー座標と被るようにしておく
+			//for (int i = 0; i <= 15; i++)
+			//{
+			//	if (ufo.pos_no <= i)
+			//	{
+			//		ufo.pos_x = player.pos_x;
+			//	}
+			//}
+			if (ufo.Tracking)
+			{
+				if (ufo.pos_x < player.pos_x) {
+					ufo.pos_x += 2;
+				}
+				if (ufo.pos_x > player.pos_x) {
+					ufo.pos_x -= 2;
+				}
+			}
+			if (ufo.pos_x == player.pos_x)
+			{
+				ufo.Tracking = false;
+			}
 
 			//  UFOとプレイヤーZ座標は同じにして追ってきてるいる感じにしておく
 			if (player.pos_z <= -320 && player.pos_z >= -439) {

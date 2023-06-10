@@ -223,6 +223,8 @@ public:
     float Title_Ufo_rad;
     float Title_Ufo_rad_plus;
 
+    //  プレイヤーがUFOにつかまったかどうか判定するための変数
+    bool Player_Catch;
 
     //  ゲームオーバー時のいらうと用の変数
     int Time_Over_ilust_hansei;

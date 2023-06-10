@@ -23,6 +23,9 @@ public:
     //  UFOのライトの薄さを
     int UFO_Blend;
 
+    //  UFOがプレイヤーを追尾するかどうか判定するための変数
+    bool Tracking;
+
     void Init();
     void Update();
     void Draw();
